@@ -56,7 +56,7 @@ object LoliconCenter {
         //https://api.lolicon.app/setu/v2?r18=2&proxy=i.acgmx.com&size=original&keyword=loli
         var r18 = 0
         val keyword: String
-        var url = "https://api.lolicon.app/setu/v2?proxy=i.acgmx.com&size=${Config.loliconSize}"
+        var url = "https://api.lolicon.app/setu/v2?proxy=i.acgmx.com&size=regular"
 
         if (temp.isNotEmpty()) {
             keyword = temp[0]
